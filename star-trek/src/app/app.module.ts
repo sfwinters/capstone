@@ -25,7 +25,7 @@ import { VetarComponent } from './cardassian-fleet/vetar/vetar.component';
 import { VoyagerComponent } from './federation-fleet/voyager/voyager.component';
 import { SepuloComponent } from './ferengi-fleet/sepulo/sepulo.component';
 import { KraxonComponent } from './cardassian-fleet/kraxon/kraxon.component';
-import { BelekComponent } from './romulan-fleet/belek/belek.component';
+import { BelakComponent } from './romulan-fleet/belak/belak.component';
 import { RotarranComponent } from './klingon-fleet/rotarran/rotarran.component';
 
 @NgModule({
@@ -53,7 +53,7 @@ import { RotarranComponent } from './klingon-fleet/rotarran/rotarran.component';
     VoyagerComponent,
     SepuloComponent,
     KraxonComponent,
-    BelekComponent,
+    BelakComponent,
     RotarranComponent
   ],
   imports: [
