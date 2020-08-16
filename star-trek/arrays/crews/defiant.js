@@ -13,3 +13,6 @@ const sisko = new Officer ('Benjamin Lafayette Sisko', 'Captain', 'Commanding Of
 const kira = new Officer ('Kira Nerys', 'Commander', 'First Officer', 'Bajoran');
 const jadzia = new Officer ('Jadzia Dax', 'Lieutenant Commander', 'Science Officer', 'Trill');
 const nog = new Officer ('Nog', 'Lieutenant Junior Grade', 'Helmsman', 'Ferengi')
+
+const defiant = [sisko, kira, jadzia, nog]
+console.log(defiant)
