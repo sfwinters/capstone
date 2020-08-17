@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'federation', component: FederationFleetComponent },
   { path: 'klingon', component: KlingonFleetComponent },
   { path: 'romulan', component: RomulanFleetComponent },
+  { path: 'cardassian', component: CardassianFleetComponent },
   { path: 'ferengi', component: FerengiFleetComponent },
   { path: 'borg', component: BorgComponent },
 ];
