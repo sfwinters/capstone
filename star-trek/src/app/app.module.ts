@@ -27,6 +27,7 @@ import { SepuloComponent } from './ferengi-fleet/sepulo/sepulo.component';
 import { KraxonComponent } from './cardassian-fleet/kraxon/kraxon.component';
 import { BelakComponent } from './romulan-fleet/belak/belak.component';
 import { RotarranComponent } from './klingon-fleet/rotarran/rotarran.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { RotarranComponent } from './klingon-fleet/rotarran/rotarran.component';
     SepuloComponent,
     KraxonComponent,
     BelakComponent,
-    RotarranComponent
+    RotarranComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,20 @@
 <p>defiant works!</p>
-<div>
-    <ul>
-       <ng-container *ngFor="let member of defCrew; let i=index">
-            <li [id]="member.id" (click)="toggle()">
-            {{ member.position }}: {{ member.name }}
-            <!-- <img [src]="member.photo"> this works--> 
-            <!-- <ng-container *ngIf="show"> -->
-                <div *ngIf="show">
+    <ng-container>
+        <div *ngFor="let member of defCrew">
+            <div [id]="member.id">
+                <img [src]="member.photo"><br>
+                {{ member.fullName }}<br>
+                {{ member.rank }}<br>
+                {{ member.position }}<br>
+            </div>
+        </div>
+    </ng-container> 
+       <!-- <li [id]="member.id" (click)="toggle()">
+            {{ member.position }}: {{ member.name }}</li>
+            <img [src]="member.photo"> this works--> 
+                <!-- <div *ngIf="show">
                     <img [src]="member.photo"><br>
                     {{ member.name }}<br>
                     {{ member.rank }}<br>
                     {{ member.position }}<br>
-                </div>
-            </li>
-        </ng-container>
-        
-    </ul>
-</div>
+                </div>-->

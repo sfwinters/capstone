@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class DefiantComponent implements OnInit {
   defCrew = [
     {
-      name: 'Benjamin Lafayette Sisko',
+      name: 'Ben Sisko',
+      fullName: 'Benjamin Lafayette Sisko',
       rank: 'Captain',
       position: 'Commanding Officer',
       race: 'Human',
@@ -18,6 +19,7 @@ export class DefiantComponent implements OnInit {
     },
     {
       name: 'Kira Nerys',
+      fullName: 'Kira Nerys',
       rank: 'Commander',
       position: 'First Officer',
       race: 'Bajoran',
@@ -26,7 +28,8 @@ export class DefiantComponent implements OnInit {
       id: 'kira'
     },
     {
-      name: 'Jadzia Dax',
+      name: 'Dax',
+      fullName: 'Jadzia Dax',
       rank: 'Lieutenant Commander',
       position: 'Science Officer',
       race: 'Trill',
@@ -36,6 +39,7 @@ export class DefiantComponent implements OnInit {
     },
     {
       name: 'Nog',
+      fulLName: 'Nog',
       rank: 'Lieutenant Junior Grade',
       position: 'Helmsman',
       race: 'Ferengi',
@@ -51,7 +55,7 @@ export class DefiantComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggle(li) {
+  toggle() {
     this.show = !this.show;
   }
 }
