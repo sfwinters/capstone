@@ -1,5 +1,43 @@
+@font-face {
+    font-family: "Federation";
+    src: url("../../assets/fonts/Federation.ttf")
+}
+
+@font-face {
+    font-family: "Klingon";
+    src: url("../../assets/fonts/Klingon.ttf")
+};
+
+@font-face {
+    font-family: "Romulan";
+    src: url("../../assets/fonts/Romulan.ttf")
+};
+
+@font-face {
+    font-family: "Cardassian";
+    src: url("../../assets/fonts/Cardassian.ttf")
+};
+
+@font-face {
+    font-family: "Ferengi";
+    src: url("../../assets/fonts/Ferengi.ttf")
+};
+
+@font-face {
+    font-family: "Borg";
+    src: url("../../assets/fonts/Borg.ttf")
+}
+
+@font-face {
+    font-family: "Trekbats";
+    src: url("../../assets/fonts/Trekbats.ttf")
+}
+
 ul {
     list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -8,10 +46,13 @@ ul {
   
   li {
     float: left;
+    
   }
   
   li a {
-    display: block;
+    display: inline-block;
+    justify-items: space-evenly;
+    position: relative;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -21,4 +62,50 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+    font-family: "Federation"
   }
+
+  #federation {
+      font-family: "Federation"
+  }
+
+  #klingon {
+      font-family: "Klingon"
+  }
+
+  #romulan {
+      font-family: "Romulan"
+  }
+
+  #ferengi {
+      font-family: "Ferengi";
+  }
+
+  #cardassian {
+      font-family: "Cardassian"
+  }
+
+  #borg {
+      font-family: "Borg";
+  }
+
+  #home {
+      font-family: "Trekbats";
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
