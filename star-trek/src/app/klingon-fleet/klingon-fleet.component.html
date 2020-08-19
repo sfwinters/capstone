@@ -1,6 +1,8 @@
-<p>klingon-ships works!</p>
-<app-bortas></app-bortas>
-<app-chajoh></app-chajoh>
-<app-heghta></app-heghta>
-<app-pagh></app-pagh>
-<app-rotarran></app-rotarran>
+<ul>
+    <li><a [routerLink]="['bortas']">IKS Bortas</a></li>
+    <li><a [routerLink]="['chajoh']">IKS Cha'Joh</a></li>
+    <li><a [routerLink]="['heghta']">IKS Hegh'ta</a></li>
+    <li><a [routerLink]="['pagh']">IKS Pagh</a></li>
+    <li><a [routerLink]="['rotarran']">IKS Rotarran</a></li>
+</ul>
+<router-outlet></router-outlet>

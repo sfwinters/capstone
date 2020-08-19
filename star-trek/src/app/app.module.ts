@@ -56,7 +56,7 @@ import { LandingComponent } from './landing/landing.component';
     KraxonComponent,
     BelakComponent,
     RotarranComponent,
-    LandingComponent
+    LandingComponent,
   ],
   imports: [
     BrowserModule,
