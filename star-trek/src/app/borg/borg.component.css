@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Beijing";
+    src: url('../../assets/fonts/Beijing.ttf')
+}
+
+
+ul {
+    list-style-type: none;
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    justify-content: center;
+  }
+  
+  li a {
+    float: left;
+    justify-items: stretch;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: "Beijing"
+  }
+  
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
