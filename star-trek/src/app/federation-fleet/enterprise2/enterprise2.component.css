@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Final-Frontier";
+    src: url('../../../assets/fonts/Final_Frontier.ttf');
+}
+
+#container {
+    background-color: #46616e;
+}
+
+table {
+    background-color: #99ccff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.info {
+    font-family: "Final-Frontier";
+    width: 451px;
+}

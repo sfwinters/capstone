@@ -18,3 +18,13 @@ const worf = new Officer ('Worf, son of Mogh', 'Lieutenant', ['Tactical Officer'
 const beverly = new Officer ('Dr. Beverly Crusher', 'Commander', 'Chief Medical Officer', 'Human');
 const tasha = new Officer ('Natasha "Tasha" Yar', 'Lieutenant', 'Chief Security Officer', 'Human');
 const obrien = new Officer ('Miles Edward O\'Brien', 'Senior Chief Petty Officer', 'Transporter Chief', 'Human')
+
+{
+    name:
+    rank:
+    position:
+    race:
+    photo: '',
+    bio: '',
+    id: ''
+  }
