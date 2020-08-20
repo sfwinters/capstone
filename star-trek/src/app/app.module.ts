@@ -28,6 +28,8 @@ import { KraxonComponent } from './cardassian-fleet/kraxon/kraxon.component';
 import { BelakComponent } from './romulan-fleet/belak/belak.component';
 import { RotarranComponent } from './klingon-fleet/rotarran/rotarran.component';
 import { LandingComponent } from './landing/landing.component';
+import { BorgCubeComponent } from './borg/borg-cube/borg-cube.component';
+import { BorgSphereComponent } from './borg/borg-sphere/borg-sphere.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +59,8 @@ import { LandingComponent } from './landing/landing.component';
     BelakComponent,
     RotarranComponent,
     LandingComponent,
+    BorgCubeComponent,
+    BorgSphereComponent,
   ],
   imports: [
     BrowserModule,

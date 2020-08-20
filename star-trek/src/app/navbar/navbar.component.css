@@ -28,102 +28,92 @@
     src: url("../../assets/fonts/Borg.ttf")
 }
 
-@font-face {
-    font-family: "Trekbats";
-    src: url("../../assets/fonts/Trekbats.ttf")
+#federation {
+    font-family: "Federation";
+    grid-column: 1;
 }
 
-ul {
-    list-style-type: none;
-    position: relative;
-    top: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    justify-content: center;
-  }
-  
-  li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    vertical-align: middle;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+#klingon {
+    font-family: "Klingon";
+    grid-column: 2;
+}
+
+#klingon:hover {
+    font-family: "Federation"
+}
+
+#romulan {
+    font-family: "Romulan";
+    grid-column: 3;
+}
+
+#romulan:hover {
+    font-family: "Federation"
+}
+
+#ferengi {
+    font-family: "Ferengi";
+    grid-column: 4;
+}
+
+#ferengi:hover {
+    font-family: "Federation"
+}
+
+#cardassian {
+    font-family: "Cardassian";
+    grid-column: 5;
+}
+
+#cardassian:hover {
+    font-family: "Federation"
+}
+
+#borg {
+    font-family: "Borg";
+    grid-column: 6;
+    font-size: 2em;
+}
+
+#borg:hover {
     font-family: "Federation";
-    background-color: #111;
-  }
+    font-size: medium;
+}
 
-  .main {
-    width: 12em;
-  }
+#home {
+    font-family: "Federation";
+    grid-column: 7;
+}
 
-  .main:hover{
-    width: 12em
-  }
-
-  #federation {
-      font-family: "Federation"
-  }
-
-  #klingon {
-      font-family: "Klingon"
-  }
-
-  #romulan {
-      font-family: "Romulan"
-  }
-
-  #ferengi {
-      font-family: "Ferengi";
-  }
-
-  #cardassian {
-      font-family: "Cardassian"
-  }
-
-  #borg {
-      font-family: "Borg";
-  }
-
-  #home {
-      font-family: "Federation";
-      /* align-self: right; */
-  }
-
-  .dropdown {
-    display: inline-block;
-    height: fit-content;
+.container {
+    display: grid;
+    background-color: #333;
+    width: 100%;
     vertical-align: middle;
-    padding: 0;
-    margin: 0;
-  }
+}
 
-  .home {
-      display: inline-block;
-      direction: rtl;
-  }
+nav {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 10px;
+    padding-bottom: 15px;
+}
 
-  .dropdown:hover {
+.main a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+li a:hover {
     background-color: #111;
+    font-family: "Federation";
+    font-size: medium;
+    vertical-align: middle;
+    
   }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropdown-content {
-    display: none;
-    background-color: #7c7c7c;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
-  
