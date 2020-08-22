@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { KshipsService } from './kships.service';
 
 @Component({
   selector: 'app-klingon-fleet',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KlingonFleetComponent implements OnInit {
 
-  constructor() { }
+  constructor(private shipsList: KshipsService) { }
 
   ngOnInit(): void {
+    this.getShips()
+  }
+  kships;
+  getShips() {
+    this.kships = this.shipsList.getShips()
   }
 
 }

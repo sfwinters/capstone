@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ɵSWITCH_IVY_ENABLED__POST_R3__ } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DefiantComponent } from './federation-fleet/defiant/defiant.component';
 import { FederationFleetComponent } from './federation-fleet/federation-fleet.component';
@@ -10,22 +10,12 @@ import { BorgComponent } from './borg/borg.component';
 import { LandingComponent } from './landing/landing.component';
 import { Enterprise1Component } from './federation-fleet/enterprise1/enterprise1.component';
 import { Enterprise2Component } from './federation-fleet/enterprise2/enterprise2.component';
-import { VoyagerComponent } from './federation-fleet/voyager/voyager.component'
-import { BortasComponent } from './klingon-fleet/bortas/bortas.component'
-import { ChajohComponent } from './klingon-fleet/chajoh/chajoh.component'
-import { HeghtaComponent } from './klingon-fleet/heghta/heghta.component'
-import { PaghComponent } from './klingon-fleet/pagh/pagh.component'
-import { RotarranComponent } from './klingon-fleet/rotarran/rotarran.component'
-import { BorgCubeComponent } from './borg/borg-cube/borg-cube.component'
-import { BorgSphereComponent } from './borg/borg-sphere/borg-sphere.component'
-import { KoranakComponent } from './cardassian-fleet/koranak/koranak.component'
-import { KraxonComponent } from './cardassian-fleet/kraxon/kraxon.component'
-import { PrakeshComponent } from './cardassian-fleet/prakesh/prakesh.component'
-import { VetarComponent } from './cardassian-fleet/vetar/vetar.component'
-import { QuarksTreasureComponent } from './ferengi-fleet/quarks-treasure/quarks-treasure.component'
-import { SepuloComponent } from './ferengi-fleet/sepulo/sepulo.component'
-import { BelakComponent } from './romulan-fleet/belak/belak.component'
-import { DeraComponent } from './romulan-fleet/dera/dera.component'
+import { VoyagerComponent } from './federation-fleet/voyager/voyager.component';
+import { KlingonshipsComponent } from './klingon-fleet/klingonships/klingonships.component';
+import { BorgshipsComponent } from './borg/borgships/borgships.component';
+import { CardassianshipsComponent } from './cardassian-fleet/cardassianships/cardassianships.component';
+import { FerengishipsComponent } from './ferengi-fleet/ferengiships/ferengiships.component';
+import { RomulanshipsComponent } from './romulan-fleet/romulanships/romulanships.component';
 
 const routes: Routes = [
   { path: 'home', component: LandingComponent},
@@ -38,41 +28,29 @@ const routes: Routes = [
     ]},
   { path: 'klingon', component: KlingonFleetComponent, 
     children: [
-      { path: 'bortas', component: BortasComponent },
-      { path: 'chajoh', component: ChajohComponent },
-      { path: 'heghta', component: HeghtaComponent },
-      { path: 'pagh', component: PaghComponent },
-      { path: 'rotarran', component: RotarranComponent },
+      { path: 'klships/:id', component: KlingonshipsComponent },
+      // { path: '', redirectTo: '/klships/0', component: KlingonshipsComponent }
     ]},
   { path: 'romulan', component: RomulanFleetComponent,
     children: [
-      { path: 'belak', component: BelakComponent },
-      { path: 'dera', component: DeraComponent },
+      { path: 'rships', component: RomulanshipsComponent },
     ] },
   { path: 'cardassian', component: CardassianFleetComponent,
       children: [
-        { path: 'koranak', component: KoranakComponent },
-        { path: 'kraxon', component: KraxonComponent }, 
-        { path: 'prakesh', component: PrakeshComponent },
-        { path: 'vetar', component: VetarComponent },
+        { path: 'cships', component: CardassianshipsComponent },
       ] },
   { path: 'ferengi', component: FerengiFleetComponent,
       children: [
-        { path: 'quark', component: QuarksTreasureComponent },
-        { path: 'sepulo', component: SepuloComponent }
+        { path: 'fships', component: FerengishipsComponent },
       ] },
   { path: 'borg', component: BorgComponent,
       children: [
-        { path: 'cube', component: BorgCubeComponent },
-        { path: 'sphere', component: BorgSphereComponent }
-      ] },
-  
-
-
+        { path: 'bships', component: BorgshipsComponent },
+      ] }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }

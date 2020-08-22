@@ -1,8 +1,5 @@
 <ul>
-    <li><a [routerLink]="['bortas']">IKS Bortas</a></li>
-    <li><a [routerLink]="['chajoh']">IKS Cha'Joh</a></li>
-    <li><a [routerLink]="['heghta']">IKS Hegh'ta</a></li>
-    <li><a [routerLink]="['pagh']">IKS Pagh</a></li>
-    <li><a [routerLink]="['rotarran']">IKS Rotarran</a></li>
-</ul>
+    <li *ngFor="let ship of kships">
+        <a [routerLink]="['klships', ship.id]">{{ ship.name }}</a>
+    </li>
 <router-outlet></router-outlet>
