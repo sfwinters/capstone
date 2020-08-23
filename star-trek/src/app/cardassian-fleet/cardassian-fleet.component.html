@@ -1,11 +1,18 @@
-<ul>
-    <li><a [routerLink]="['koranak']">CDS Koranak</a></li>
-    <li><a [routerLink]="['kraxon']">CDS Kraxon</a></li>
-    <li><a [routerLink]="['prakesh']">CDS Prakesh</a></li>
-    <li><a [routerLink]="['vetar']">CDS Vetar</a></li>
-</ul>
-<router-outlet></router-outlet>
-<!-- <app-koranak></app-koranak>
-<app-kraxon></app-kraxon>
-<app-prakesh></app-prakesh>
-<app-vetar></app-vetar> -->
+<div id="container">
+    <div *ngFor="let ships of cardassian" [id]="ships.id">
+        <table>
+            <tr>
+                <td>
+                    <img [src]="ships.photo">
+                </td>
+                <td class="info">
+                    Name: {{ships.name}}<br>
+                    Class: {{ships.class}}<br>
+                    Type: {{ ships.type }}<br>
+                    Owner: {{ ships.owner }}<br>
+                    About: {{ships.info}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

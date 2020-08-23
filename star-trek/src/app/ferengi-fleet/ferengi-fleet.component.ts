@@ -6,6 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ferengi-fleet.component.css']
 })
 export class FerengiFleetComponent implements OnInit {
+  ferengi = [
+    {
+      name: '',
+      class: '',
+      type: '',
+      owner: '',
+      photo: '',
+      info: '',
+      id: ''
+    },
+    {
+      name: '',
+      class: '',
+      type: '',
+      owner: '',
+      photo: '',
+      info: '',
+      id: ''
+    }
+  ]
 
   constructor() { }
 

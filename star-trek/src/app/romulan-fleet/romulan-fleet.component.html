@@ -1,6 +1,18 @@
-<ul>
-    <li><a [routerLink]="['belak']">Belak</a></li>
-    <li><a [routerLink]="['dera']">D'era</a></li>
-</ul>
-
-<router-outlet></router-outlet>
+<div id="container">
+    <div *ngFor="let ships of romulan" [id]="ships.id">
+        <table>
+            <tr>
+                <td>
+                    <img [src]="ships.photo">
+                </td>
+                <td class="info">
+                    Name: {{ships.name}}<br>
+                    Class: {{ships.class}}<br>
+                    Type: {{ ships.type }}<br>
+                    Owner: {{ ships.owner }}<br>
+                    About: {{ships.info}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

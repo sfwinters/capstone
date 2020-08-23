@@ -12,13 +12,9 @@ import { DefiantComponent } from './federation-fleet/defiant/defiant.component';
 import { VoyagerComponent } from './federation-fleet/voyager/voyager.component';
 import { KlingonFleetComponent } from './klingon-fleet/klingon-fleet.component';
 import { RomulanFleetComponent } from './romulan-fleet/romulan-fleet.component';
-import { RomulanshipsComponent } from './romulan-fleet/romulanships/romulanships.component';
 import { CardassianFleetComponent } from './cardassian-fleet/cardassian-fleet.component';
-import { CardassianshipsComponent } from './cardassian-fleet/cardassianships/cardassianships.component';
 import { FerengiFleetComponent } from './ferengi-fleet/ferengi-fleet.component';
-import { FerengishipsComponent } from './ferengi-fleet/ferengiships/ferengiships.component';
 import { BorgComponent } from './borg/borg.component';
-import { BorgshipsComponent } from './borg/borgships/borgships.component';
 
 @NgModule({
   declarations: [
@@ -34,10 +30,6 @@ import { BorgshipsComponent } from './borg/borgships/borgships.component';
     DefiantComponent,
     FerengiFleetComponent,
     VoyagerComponent,
-    BorgshipsComponent,
-    CardassianshipsComponent,
-    FerengishipsComponent,
-    RomulanshipsComponent,
   ],
   imports: [
     BrowserModule,

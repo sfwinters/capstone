@@ -6,6 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./romulan-fleet.component.css']
 })
 export class RomulanFleetComponent implements OnInit {
+  romulan = [
+    {
+      name: '',
+      class: '',
+      type: '',
+      owner: '',
+      photo: '',
+      info: '',
+      id: ''
+    },
+    {
+      name: '',
+      class: '',
+      type: '',
+      owner: '',
+      photo: '',
+      info: '',
+      id: ''
+    }
+  ]
 
   constructor() { }
 
