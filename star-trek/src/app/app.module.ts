@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+// import { RouterModule } from '@angular/router'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,6 @@ import { Enterprise2Component } from './federation-fleet/enterprise2/enterprise2
 import { DefiantComponent } from './federation-fleet/defiant/defiant.component';
 import { VoyagerComponent } from './federation-fleet/voyager/voyager.component';
 import { KlingonFleetComponent } from './klingon-fleet/klingon-fleet.component';
-import { KlingonshipsComponent } from './klingon-fleet/klingonships/klingonships.component';
 import { RomulanFleetComponent } from './romulan-fleet/romulan-fleet.component';
 import { RomulanshipsComponent } from './romulan-fleet/romulanships/romulanships.component';
 import { CardassianFleetComponent } from './cardassian-fleet/cardassian-fleet.component';
@@ -37,12 +37,12 @@ import { BorgshipsComponent } from './borg/borgships/borgships.component';
     BorgshipsComponent,
     CardassianshipsComponent,
     FerengishipsComponent,
-    KlingonshipsComponent,
     RomulanshipsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // RouterModule, { useHash: true },
   ],
   providers: [],
   bootstrap: [AppComponent]

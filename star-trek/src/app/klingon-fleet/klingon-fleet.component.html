@@ -1,5 +1,18 @@
-<ul>
-    <li *ngFor="let ship of kships">
-        <a [routerLink]="['klships', ship.id]">{{ ship.name }}</a>
-    </li>
-<router-outlet></router-outlet>
+<div id="container">
+    <div *ngFor="let ships of klingon" [id]="ships.id">
+        <table>
+            <tr>
+                <td>
+                    <img [src]="ships.photo">
+                </td>
+                <td class="info">
+                    Name: {{ships.name}}<br>
+                    Class: {{ships.class}}<br>
+                    Type: {{ ships.type }}<br>
+                    Owner: {{ ships.owner }}<br>
+                    About: {{ships.info}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
