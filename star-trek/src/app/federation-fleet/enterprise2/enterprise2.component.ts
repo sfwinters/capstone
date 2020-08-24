@@ -77,7 +77,7 @@ export class Enterprise2Component implements OnInit {
       position: 'Chief Security Officer',
       race: 'Human',
       photo: 'assets/images/1701d/tasha.jpg',
-      bio: 'Natasha "Tasha" Yar was born on the planet Turkana IV. After the collapse of the government on the planet and the death of her parents, she and her younger sister were forced to fend for themselves until Tasha was able to escape the planet at the age of fifteen. She credited Starfleet as saving her from her former life, where she had to scavenge for food and avoid violent gangs. She was a skilled combatant, even becoming Chief Security Officer on the Enterprise, but was killed less than a year into the assignment, in a senseless act of aggression by a creature named Armus during an away mission. Despite her short service on board the ship, Tasha is remembered fondly by her fellow officers, particularly Data, who has described her as being "special" to him.',
+      bio: 'Natasha "Tasha" Yar was born on the planet Turkana IV. After the collapse of the government on the planet and the death of her parents, she and her younger sister were forced to fend for themselves until Tasha was able to escape the planet at the age of fifteen. She credited Starfleet as saving her from her former life, where she had to scavenge for food and avoid violent gangs. She was a skilled combatant, even becoming Chief Security Officer on the Enterprise, but was killed less than a year into the assignment, in a display of aggression by a creature named Armus during an away mission. Despite her short service on board the ship, Tasha is remembered fondly by her fellow officers, particularly Data, who has described her as being "special" to him.',
       id: 'tasha'
     },
     {

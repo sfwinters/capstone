@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FerengiFleetComponent implements OnInit {
   ferengi = [
     {
-      name: '',
+      name: 'FMS Braktel',
       class: '',
       type: '',
       owner: '',
@@ -17,14 +17,24 @@ export class FerengiFleetComponent implements OnInit {
       id: ''
     },
     {
-      name: '',
-      class: '',
-      type: '',
-      owner: '',
+      name: 'FMS Krayton',
+      class: 'D\'Kora',
+      type: 'Transport',
+      owner: 'Ferengi Alliance',
       photo: '',
       info: '',
-      id: ''
+      id: 'krayton'
+    },
+    {
+      name: 'Quark\'s Treasure',
+      class: 'Large Shuttle',
+      type: 'Shuttlepod',
+      owner: 'Quark',
+      photo: '',
+      info: '',
+      id: 'quark'
     }
+    
   ]
 
   constructor() { }

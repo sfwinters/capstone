@@ -12,18 +12,18 @@ export class BorgComponent implements OnInit {
       class: '',
       type: '',
       owner: '',
-      photo: '',
+      photo: '/assets/images/borg/cube.jpg',
       info: '',
-      id: ''
+      id: 'cube'
     },
     {
       name: 'Borg Sphere',
       class: '',
       type: '',
       owner: '',
-      photo: '',
+      photo: '/assets/images/borg/sphere.jpg',
       info: '',
-      id: ''
+      id: 'sphere'
     }
   ]
 

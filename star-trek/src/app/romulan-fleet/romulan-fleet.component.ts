@@ -8,22 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class RomulanFleetComponent implements OnInit {
   romulan = [
     {
-      name: '',
-      class: '',
-      type: '',
-      owner: '',
+      name: 'Belak',
+      class: 'D\'deridex',
+      type: 'Warbird',
+      owner: 'Romulan Empire (Tal Shiar)',
       photo: '',
       info: '',
-      id: ''
+      id: 'belak'
     },
     {
-      name: '',
-      class: '',
-      type: '',
-      owner: '',
+      name: 'D\'era',
+      class: 'Shuttle',
+      type: 'Shuttle',
+      owner: 'Romulan Empire',
       photo: '',
       info: '',
-      id: ''
+      id: 'dera'
     }
   ]
 

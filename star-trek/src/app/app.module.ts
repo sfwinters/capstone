@@ -15,6 +15,7 @@ import { RomulanFleetComponent } from './romulan-fleet/romulan-fleet.component';
 import { CardassianFleetComponent } from './cardassian-fleet/cardassian-fleet.component';
 import { FerengiFleetComponent } from './ferengi-fleet/ferengi-fleet.component';
 import { BorgComponent } from './borg/borg.component';
+import { FedshipsComponent } from './federation-fleet/fedships/fedships.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { BorgComponent } from './borg/borg.component';
     DefiantComponent,
     FerengiFleetComponent,
     VoyagerComponent,
+    FedshipsComponent,
   ],
   imports: [
     BrowserModule,

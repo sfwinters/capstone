@@ -1,0 +1,17 @@
+<div id="container">
+    <table>
+        <tr *ngFor="let ships of fedShips" [id]="ships.id">
+            <td>
+                <img [src]="ships.photo">
+            </td>
+            <td class="info">
+                Name: {{ships.name}}<br>
+                Registry: {{ships.registry}}<br>
+                Class: {{ships.class}}<br>
+                Type: {{ ships.type }}<br>
+                Owner: {{ ships.owner }}<br>
+                About: {{ships.info}}
+            </td>
+        </tr>
+    </table>
+</div>

@@ -11,11 +11,14 @@ import { LandingComponent } from './landing/landing.component';
 import { Enterprise1Component } from './federation-fleet/enterprise1/enterprise1.component';
 import { Enterprise2Component } from './federation-fleet/enterprise2/enterprise2.component';
 import { VoyagerComponent } from './federation-fleet/voyager/voyager.component';
+import { FedshipsComponent } from './federation-fleet/fedships/fedships.component';
 
 const routes: Routes = [
   { path: 'home', component: LandingComponent},
   { path: 'federation', component: FederationFleetComponent,
     children: [
+      { path: '', component: FedshipsComponent },
+      { path: 'fed-fleet', component: FedshipsComponent },
       { path: 'defiant', component: DefiantComponent },
       { path: 'tos-ent', component: Enterprise1Component },
       { path: 'tng-ent', component: Enterprise2Component },

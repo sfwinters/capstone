@@ -7,40 +7,40 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardassianFleetComponent implements OnInit {
   cardassian = [{
-    name: '',
-    class: '',
-    type: '',
-    owner: '',
+    name: 'CDS Koranak',
+    class: 'Keldon',
+    type: 'Cruiser',
+    owner: 'Obsidian Order',
     photo: '',
     info: '',
-    id: ''
+    id: 'koranak'
   },
   {
-    name: '',
-    class: '',
-    type: '',
-    owner: '',
+    name: 'CDS Kraxon',
+    class: 'Galor',
+    type: 'Battlecruiser',
+    owner: 'Cardassian Union',
     photo: '',
     info: '',
-    id: ''
+    id: 'kraxon'
   },
   {
-    name: '',
-    class: '',
-    type: '',
-    owner: '',
+    name: 'CDS Prakesh',
+    class: 'Galor',
+    type: 'Battlecruiser',
+    owner: 'Cardassian Central Command',
     photo: '',
     info: '',
-    id: ''
+    id: 'prakesh'
   },
   {
-    name: '',
-    class: '',
-    type: '',
-    owner: '',
+    name: 'CDS Vetar',
+    class: 'Galor',
+    type: 'Cruiser',
+    owner: 'Cardassian Central Command',
     photo: '',
     info: '',
-    id: ''
+    id: 'vetar'
   }]
 
   constructor() { }

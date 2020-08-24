@@ -13,13 +13,13 @@ export class DefiantComponent implements OnInit {
       position: 'Commanding Officer',
       race: 'Human',
       photo: '/assets/images/defiant/sisko.jpg',
-      bio: `Benjamin Lafayette Sisko was born in 2332 in New Orleans, Louisiana and raised by his father, Joseph Sisko. He entered Starfleet Academy at the age of 18 and met his future wife, Jennifer, shortly after graduating. The two would go on to have a son, Jake. Benjamin was serving as First Officer on the USS Saratoga when the ship entered into the Battle of Wolf 369 against the Borg. Jennifer was tragically killed during the battle. Benjamin and Jake would later move to the space station Deep Space Nine, where Ben served as Commanding Officer. While serving on Deep Space Nine, he would eventually meet and marry a space freighter captain named Kasidy Yates.
+      bio: `Benjamin Lafayette Sisko was raised by his father, Joseph Sisko, in New Orleans, Louisiana. He entered Starfleet Academy at the age of 18 and met his future wife, Jennifer, shortly after graduating. The two would go on to have a son, Jake. Benjamin was serving as First Officer on the USS Saratoga when the ship entered into the Battle of Wolf 369 against the Borg. Jennifer was tragically killed during the battle. Benjamin and Jake would later move to the space station Deep Space Nine, where Ben served as Commanding Officer. While serving on Deep Space Nine, he would eventually meet and marry a space freighter captain named Kasidy Yates.
       Ben loves baseball and cooking, a skill he learned from his father, who runs a Creole restaurant in New Orleans.`,
       id: 'sisko'
     },
     {
       name: 'Kira Nerys',
-      rank: 'Commander',
+      rank: 'Colonel (Bajoran Militia)',
       position: 'First Officer',
       race: 'Bajoran',
       photo: '/assets/images/defiant/kira.jpg',
@@ -41,7 +41,7 @@ export class DefiantComponent implements OnInit {
       position: 'Helmsman',
       race: 'Ferengi',
       photo: '/assets/images/defiant/nog.jpg',
-      bio: 'Nog was born on the planet Ferenginar in 2353. After his mother, Prinadora, left his father, Rom, for a richer Ferengi, Rom accepted a job working for his brother, Quark. Rom and Nog relocated to the space station Deep Space Nine, where Quark runs a popular bar and gaming hall. Nog quickly becomes friends with Jake Sisko, who is around his same age. Though mischevious and initially thought to be a "bad influence" on Jake, Nog is smart and capable, eventually becoming the first Ferengi to join Starfleet. He is commissioned as an Ensign during the Dominion War and is later promoted to Lieutenant, Junior Grade due to his service and bravery during the war.',
+      bio: 'Nog was born on the planet Ferenginar in 2353. After his mother, Prinadora, left his father, Rom, for a richer Ferengi, Rom accepted a job on Deep Space Nine working for his brother, Quark. Nog quickly became friends with Jake Sisko, who is around his same age. Though mischevious and initially thought to be a "bad influence" on Jake, Nog is smart and capable, eventually becoming the first Ferengi to join Starfleet. He is commissioned as an Ensign during the Dominion War and is later promoted to Lieutenant, Junior Grade due to his service and bravery during the war.',
       id: 'nog'
     }
   ]
