@@ -32,7 +32,7 @@ export class Enterprise2Component implements OnInit {
       position: 'Science Officer',
       race: 'Android',
       photo: '/assets/images/1701d/data.jpg',
-      bio: 'Data was created by Dr. Noonien Soong, a highly respected scientist and cyberneticist who later fell into disgrace. Data is one of only six known "Soong-type" androids, notable for their nearly-human appearance and sophisticated positronic brains. Though physically and mentally superior to humans (and most known species), Data greatly admires humans and openly wishes that he could become one, striving to understand human traits such as emotions and humor.',
+      bio: 'Data was created by Dr. Noonien Soong, a highly respected scientist and cyberneticist who later fell into disgrace. Data is one of only six known "Soong-type" androids, notable for their nearly-human appearance and sophisticated positronic brains. Though physically and mentally superior to humans (and most known species), Data greatly admires humans and openly wishes that he could become one, striving to understand human traits such as emotions and humor. He was nonetheless able to establish close attachments and friendships, particularly with Geordi La Forge, his best friend, and Spot, his cat.',
       id: 'data'
     },
     {
