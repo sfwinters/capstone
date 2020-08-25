@@ -36,6 +36,15 @@ export class DefiantComponent implements OnInit {
       id: 'dax'
     },
     {
+      name: 'Julian Bashir',
+      rank: 'Lieutenant',
+      position: 'Chief Medical Officer',
+      race: 'Genetically-augmented Human',
+      photo: '/assets/images/defiant/bashir.jpg',
+      bio: 'Julian Subatoi Bashir grew up as a small and physically awkward child, as well as intellectually inferior to his peers. When he was 7, his worried parents took him to an off-planet hospital, where he underwent a series of illegal treatments designed to resequence his DNA and enhance his mental capabilities. As a result, both his physical and intellectual abilities rapidly improved until he surpassed his peers in both areas. He entered Starfleet to become a doctor and was such an outstanding student that he was offered his choice of post upon graduation. He chose to be assigned to the remote space station Deep Space Nine, believing that he would get to witness "real frontier medicine." His genetic enhancements were discovered by Starfleet during this time, resulting in his father serving time in a penal colony on Earth.',
+      id: 'bashir'
+    },
+    {
       name: 'Nog',
       rank: 'Lieutenant Junior Grade',
       position: 'Helmsman',
