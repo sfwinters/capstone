@@ -13,7 +13,7 @@ export class BorgComponent implements OnInit {
       type: 'unknown',
       owner: 'Borg Collective',
       photo: '/assets/images/borg/cube.jpg',
-      info: 'Rather than being one distinct ship, Borg cubes were one of two main types of vessels known to be used by the Borg Collective, and the most widely known. They are highly resistant to damage due to their massive size (at least 3 km per edge) and decentralized structure, meaning that they lack traditional ship sections such as a bridge or engine room. The Borg\'s ability to quickly absorb knowledge and technology from species it encounters allow ships to almost instantly develop defenses against various types of weapons.',
+      info: 'Rather than being one distinct ship, Borg cubes were one of two main types of vessels known to be used by the Borg Collective, and the most widely known. They are highly resistant to damage due to their massive size (at least 3 km per edge) and decentralized structure, meaning that they lack traditional ship sections such as a bridge or engine room. The Borg\'s ability to quickly absorb knowledge and technology from species it encounters allow their vessels to almost instantly develop defenses against various types of weapons.',
       id: 'cube'
     },
     {

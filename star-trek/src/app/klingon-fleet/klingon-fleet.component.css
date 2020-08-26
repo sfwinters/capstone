@@ -1,10 +1,11 @@
 @font-face {
-  font-family: "Montalban";
-  src: url('/../../assets/fonts/Montalban.ttf')
+  font-family: "KlingonDagger";
+  src: url('/../../assets/fonts/KlingonDagger.ttf')
 }
 
 #container {
   background-color: #46616e;
+  padding-top: 60px;
 }
 
 table {
@@ -15,6 +16,6 @@ table {
 }
 
 .info {
-  font-family: "Montalban";
+  font-family: "KlingonDagger";
   width: 451px;
 }

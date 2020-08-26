@@ -23,7 +23,7 @@ export class KlingonFleetComponent implements OnInit {
       type: 'Bird of Prey',
       owner: 'Lursa and B\'Etor Duras',
       photo: '/assets/images/klingon/chajoh.jpg',
-      info: 'The Cha\'Joh was a Bird of Prey owned and operated by the Lursa and B\'Etor Duras, a pair of Klingon sisters who sparked the Klingon Civil War by publicly opposing Gowron\'s chancellorship and attempting to install their nephew Toral in his place. The sisters later used their ship in an attempt to sabotage a wormhole in Bajoran space, followed by their later involvement in an attack on a Federation colony.',
+      info: 'The Cha\'Joh was a Bird of Prey owned and operated by Lursa and B\'Etor Duras, a pair of Klingon sisters who sparked the Klingon Civil War by publicly opposing Gowron\'s chancellorship and attempting to install their nephew Toral in his place. The sisters later used their ship in an attempt to sabotage a wormhole in Bajoran space, followed by involvement in an attack on a Federation colony.',
       id: 'chajoh'
     },
     {
@@ -41,7 +41,7 @@ export class KlingonFleetComponent implements OnInit {
       type: 'Bird of Prey',
       owner: 'Klingon Defense Force',
       photo: '/assets/images/klingon/pagh.jpg',
-      info: 'The IKS Pagh was a ship serving in the Klingon Defense Force during the 24th century. It became the first Klingon ship to host a Starfleet officer, William T. Riker, as a crew member as part of an Officer Exchange Program between the Federation and the Klingon Empire. During Riker\'s assignment onboard the Pagh, he was accused of sabotage when a bacteria was found eating away at the hull of the ship. Riker failed at his attempts to persuade the ship\'s captain that he was not responsible, eventually assuming command of the ship in order to stop it from attacking the Enterprise and allowing the Enterprise to remove the bacteria and repair the hull, saving the ship.',
+      info: 'The IKS Pagh was the first Klingon ship to host a Starfleet officer, William T. Riker, as a crew member. During Riker\'s assignment onboard the Pagh, he was accused of sabotage when a bacteria was found eating away at the hull of the ship. Riker was unable to persuade the ship\'s captain that he was not involved, eventually assuming command of the ship in order to allow the Enterprise to remove the bacteria and repair the hull, saving the ship.',
       id: 'pagh'
     },
     {

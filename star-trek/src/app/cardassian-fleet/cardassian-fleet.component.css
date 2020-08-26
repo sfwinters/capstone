@@ -5,6 +5,7 @@
 
 #container {
   background-color: #46616e;
+  padding-top: 60px;
 }
 
 table {
@@ -16,5 +17,6 @@ table {
 
 .info {
   font-family: "Jefferies";
+  font-size: smaller;
   width: 451px;
 }

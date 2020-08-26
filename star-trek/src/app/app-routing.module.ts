@@ -14,6 +14,7 @@ import { VoyagerComponent } from './federation-fleet/voyager/voyager.component';
 import { FedshipsComponent } from './federation-fleet/fedships/fedships.component';
 
 const routes: Routes = [
+  { path: '', component: LandingComponent },
   { path: 'home', component: LandingComponent},
   { path: 'federation', component: FederationFleetComponent,
     children: [

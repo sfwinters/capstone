@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Montalban";
+    src: url('/../../assets/fonts/Montalban.ttf')
+  }
+
+footer {
+    position: absolute;
+    padding: 10px;
+    font-family: "Montalban";
+    color: white;
+    font-size: x-small;
+}

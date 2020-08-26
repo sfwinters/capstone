@@ -139,11 +139,6 @@
 };
 
 @font-face {
-    font-family: "TOS_Title";
-    src: url("./TOS_Title.ttf")
-};
-
-@font-face {
     font-family: "Trek_Movie_1";
     src: url("./Trek_Movie_1.ttf")
 };
