@@ -14,7 +14,7 @@ export class DefiantComponent implements OnInit {
       race: 'Human',
       photo: '/assets/images/defiant/sisko.jpg',
       bio: `Benjamin Lafayette Sisko was raised by his father, Joseph Sisko, in New Orleans, Louisiana. He entered Starfleet Academy at the age of 18 and met his future wife, Jennifer, shortly after graduating. The two would go on to have a son, Jake. Benjamin was serving as First Officer on the USS Saratoga when the ship entered into the Battle of Wolf 369 against the Borg. Jennifer was tragically killed during the battle. Benjamin and Jake would later move to the space station Deep Space Nine, where Ben served as Commanding Officer. While serving on Deep Space Nine, he would eventually meet and marry a space freighter captain named Kasidy Yates.
-      Ben loves baseball and cooking, a skill he learned from his father, who runs a Creole restaurant in New Orleans.`,
+      Ben was known to love baseball and cooking, a skill he learned from his father, who runs a Creole restaurant in New Orleans.`,
       id: 'sisko'
     },
     {
@@ -32,7 +32,7 @@ export class DefiantComponent implements OnInit {
       position: 'Science Officer',
       race: 'Trill',
       photo: '/assets/images/defiant/dax.jpg',
-      bio: 'The Trill are a species of humanoid alien that participates in a symbiotic relationship with a species referred to as "symbionts." Certain Trill are chosen to host the symbionts and though they retain much of their own personality, they are able to access the thoughts and memories of the symbiont and its previous hosts. Being chosen as a host is considered a great honor. Before being joined with Jadzia, a young Trill woman, the symbiont Dax was known as Curzon Dax, a Federation ambassador to the Klingon Empire. Curzon became a close friend and mentor to Benjamin Sisko, who would later end up serving on Deep Space Nine with Jadzia Dax. Jadzia has inherited a fondness for Klingon culture and is a skilled fighter. She also enjoys playing card games and interacting with the wide variety of cultures passing through the space station.',
+      bio: 'The Trill are a species of humanoid alien that participates in a symbiotic relationship with a species referred to as "symbionts." Certain Trill are chosen to host the symbionts and though they retain much of their own personality, they are able to access the thoughts and memories of the symbiont and its previous hosts. Being chosen as a host is considered a great honor. Before being joined with Jadzia, a young Trill woman, the symbiont Dax was known as Curzon Dax, a Federation ambassador to the Klingon Empire. Curzon became a close friend and mentor to Benjamin Sisko, who would later end up serving on Deep Space Nine with Jadzia Dax. Jadzia inherited a fondness for Klingon culture and was a skilled fighter. She also enjoyed playing card games and interacting with the wide variety of cultures passing through the space station.',
       id: 'dax'
     },
     {
