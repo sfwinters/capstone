@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Ships } from '../ships'
 
 @Component({
   selector: 'app-romulan-fleet',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./romulan-fleet.component.css']
 })
 export class RomulanFleetComponent implements OnInit {
-  romulan = [
+  romulan: Ships[] = [
     {
       name: 'n/a',
       class: 'Shuttle',

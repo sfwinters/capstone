@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Crew } from '../../crew'
 
 @Component({
   selector: 'app-voyager',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./voyager.component.css']
 })
 export class VoyagerComponent implements OnInit {
-  voyCrew = [
+  voyCrew: Crew[] = [
     {
       name: 'Kathryn Janeway',
       rank: 'Captain',

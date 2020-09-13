@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Ships } from '../ships'
 
 @Component({
   selector: 'app-klingon-fleet',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KlingonFleetComponent implements OnInit {
 
-  klingon = [
+  klingon: Ships[] = [
     {
       name: 'IKS Bortas',
       class: 'Vor\'cha',

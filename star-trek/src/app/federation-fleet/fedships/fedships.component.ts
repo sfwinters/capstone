@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { fedShips } from './fedships'
 
 @Component({
   selector: 'app-fedships',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fedships.component.css']
 })
 export class FedshipsComponent implements OnInit {
-  fedShips = [
+  fedShips: fedShips[] = [
     {
       name: 'USS Enterprise',
       registry: 'NCC-1701',

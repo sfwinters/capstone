@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Crew } from '../../crew'
 
 @Component({
   selector: 'app-defiant',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./defiant.component.css']
 })
 export class DefiantComponent implements OnInit {
-  defCrew = [
+  defCrew: Crew[] = [
     {
       name: 'Ben Sisko',
       rank: 'Captain',

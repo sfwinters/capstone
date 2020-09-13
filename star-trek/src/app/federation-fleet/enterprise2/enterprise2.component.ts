@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Crew } from '../../crew'
 
 @Component({
   selector: 'app-enterprise2',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Enterprise2Component implements OnInit {
 
-  tngCrew = [
+  tngCrew: Crew[] = [
     {
       name: 'Jean-Luc Picard',
       rank: 'Captain',

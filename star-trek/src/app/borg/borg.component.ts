@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Ships } from '../ships'
 
 @Component({
   selector: 'app-borg',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./borg.component.css']
 })
 export class BorgComponent implements OnInit {
-  borg = [
+  borg: Ships[] = [
     {
       name: 'Borg Cube',
       class: 'unknown',

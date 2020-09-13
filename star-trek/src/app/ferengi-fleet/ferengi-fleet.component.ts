@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Ships } from '../ships'
 
 @Component({
   selector: 'app-ferengi-fleet',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ferengi-fleet.component.css']
 })
 export class FerengiFleetComponent implements OnInit {
-  ferengi = [
+  ferengi: Ships[] = [
     {
       name: 'FMS Braktel',
       class: 'D\'Kora',

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Ships } from '../ships'
 
 @Component({
   selector: 'app-cardassian-fleet',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cardassian-fleet.component.css']
 })
 export class CardassianFleetComponent implements OnInit {
-  cardassian = [
+  cardassian: Ships[] = [
   {
     name: 'CDS Kraxon',
     class: 'Galor',
