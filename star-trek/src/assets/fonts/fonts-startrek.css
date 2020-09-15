@@ -134,6 +134,11 @@
 };
 
 @font-face {
+    font-family: "RomulanEagle";
+    src: url("./RomulanEagle.ttf")
+}
+
+@font-face {
     font-family: "TNG_Title";
     src: url("./TNG_Title.ttf")
 };

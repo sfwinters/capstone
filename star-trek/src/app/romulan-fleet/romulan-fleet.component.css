@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "TOS_Title";
-    src: url('/assets/fonts/Star\ Series.ttf')
+    font-family: "TrekGen2";
+    src: url('/assets/fonts/TrekGen2.ttf')
 }
 
 #container {
@@ -16,7 +16,7 @@ table {
 }
 
 .info {
-  font-family: "TOS_Title";
-  font-size: 18px;
+  font-family: "TrekGen2";
+  font-size: 20px;
   width: 451px;
 }
